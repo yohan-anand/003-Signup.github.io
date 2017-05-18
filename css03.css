@@ -1,0 +1,105 @@
+body {
+  height: 100%;
+  background-color: #C8C8C8;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.my-panel {
+  background: url(https://www.highreshdwallpapers.com/wp-content/uploads/2012/02/Super-Highway.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  max-width: 525px;
+  margin: 50px auto;
+  padding: 80px 50px 100px 50px;
+}
+
+.nav li a:focus, .nav li a:hover {
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+.my-input-box {
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+.my-panel label {
+  color: #D35035;
+  font-size: 10px;
+  margin: 10px 0px 0px 0px;
+}
+
+.my-submit-btn {
+  margin: 30px 0px 10px 0px;
+  border-radius: 20px;
+  background-color: #D35035;
+  border: none;
+  opacity: 0.9;
+  color: #C8C8C8;
+}
+
+.my-panel h5 {
+  color: #D35035;
+}
+
+.my-tab-btn {
+  padding: 0px 5px 5px 0px !important;
+  font-weight: 300;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 0 !important;
+  border: none !important;
+  color: #aaa;
+  background: none;
+  text-decoration-color: #D35035;
+  text-decoration-style: solid;
+}
+
+.my-tab-btn:hover {
+  background: none;
+  border-radius: 0 !important;
+  color: #aaa;
+  border: none;
+  text-decoration-color: white ;
+}
+
+.my-tab-btn:active {
+  background: none;
+  color: #fff !important;
+  border: none;
+  text-decoration-color: #D35035;
+}
+
+.my-tab-btn:focus {
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration-color: #D35035 !important;
+}
+
+.my-nav .active a {
+  background: none !important;
+  color: #fff !important;
+  text-decoration: underline;
+  text-decoration-color: #D35035;
+}
+
+.my-nav {
+  border: none;
+}
+
+.my-link a{
+  color: #ddd;
+  text-decoration: none;
+}
+
+.my-link a:hover{
+  color: #ddd;
+}
+
+.my-separator {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
